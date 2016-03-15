@@ -26,10 +26,12 @@ header ul li{
 
 }
 .logo {
-	height:50px ;
+	height:35px ;
 	width:140px;
 	background-color: #ff8000;
 	float: left;
+	margin-top: 8px;
+	margin-left: 25px;
 }
 
 .banner{
@@ -45,6 +47,10 @@ header ul li{
 	padding-bottom: 70px;
 	text-align: center;
 }
+a{
+    text-decoration: none;
+}
+
 .circle{
 
 	border-radius: 50%;
@@ -87,9 +93,7 @@ footer
 	text-align: center;
 	padding: 10px;
 }
-a{
-    text-decoration: none;
-}
+
 footer a{
 	font-size: 16px;
 	color: #ff8000;
