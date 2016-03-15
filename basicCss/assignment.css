@@ -1,0 +1,103 @@
+.container{
+
+	width: 940px;
+	margin:0px auto;
+}
+
+header {
+	height: 50px;
+	background-color: #000;
+}
+
+header ul a
+{
+	font-size:18px;
+	color: #ffffff;
+	float: left;
+	padding:10px ;
+}
+
+.clear{
+	clear: both;
+}
+
+header ul li{
+	display: inline;
+
+}
+.logo {
+	height:50px ;
+	width:140px;
+	background-color: #ff8000;
+	float: left;
+}
+
+.banner{
+	height: 485px;
+	background-color: #71c4ea;
+
+}
+
+.mainContent{
+	font-size: 36px;
+	color: #444444;
+	padding-top: 64px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.circle{
+
+	border-radius: 50%;
+	width: 140px;
+	height: 140px; 
+	background-color:#efefef;
+}
+.circleFormat 
+{
+	 color: #888888;
+	 font-size: 18px;
+	 vertical-align: bottom;
+	 margin-bottom: 110px;
+
+}
+.circleFormat a{
+	 color: #888888;
+}
+
+ul.circleFormat {
+	margin-left: 0;
+}
+
+ul.circleFormat li {
+	display: inline-block;
+	width: 140px;
+	text-align: center;
+	vertical-align: top;
+	margin-right: 75px;
+
+}
+.circleFormat a:hover
+{
+	color: #000;
+}
+footer
+{
+	height:50px;
+	background-color: #ececec; 
+	text-align: center;
+	padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+footer a{
+	font-size: 16px;
+	color: #ff8000;
+	margin-right: 10px;
+}
+footer a:hover{
+	color: #000;
+}
+footer ul li{
+	display: inline;
+}
