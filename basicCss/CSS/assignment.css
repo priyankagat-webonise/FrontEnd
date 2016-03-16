@@ -1,0 +1,128 @@
+p,li,ul,body,h1{
+	padding: 0;
+	margin:0;
+}
+.container{
+
+	width: 940px;
+	margin:0px auto;
+	text-align: center;
+}
+header .container{
+	padding: 8px;
+}
+header {
+	background-color: #000;
+}
+.clear{
+	clear: both;
+}
+.fixedClear{
+	float: none;
+	clear: both;
+}
+header .clearList{
+	margin: 0;
+	float: none;
+}
+header ul a{
+	font-size:18px;
+	color: #aaaaaa;
+	float: left;
+}
+header ul{
+	margin-top: 5px;
+	float: left;
+}
+.mainProspectus .clear{
+	float: none;
+	clear: both;
+}
+header ul li{
+	
+	margin-left: 100px;
+	float: left;
+}
+ul{
+	list-style-type: none;
+}
+.logo {
+	height:35px ;
+	width:140px;
+	background-color: #ff8000;
+	float: left;
+}
+.logoOuter{
+
+	display: block;
+	float: left;
+}
+.banner{
+	height: 485px;
+	background-color: #71c4ea;
+	margin-bottom: 64px;
+}
+.mainContent{
+	color: #444444;
+	margin-bottom: 70px;
+	text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.prospectus{
+	border-radius: 50%;
+	width: 140px;
+	height: 140px; 
+	background-color:#efefef;
+	margin:0 auto 20px;
+}
+.mainProspectus 
+{
+	 color: #888888;
+	 font-size: 18px;
+	 margin-bottom: 110px;
+	 display: inline-block;
+}
+.mainProspectus a{
+	 color: #888888;
+	 font-size: 18px;
+}
+.mainProspectus li {
+	width: 140px;
+	text-align: center;
+	margin-right: 75px;
+	float: left;
+	cursor: pointer;
+}
+.mainProspectus li:first-child {
+	margin-left:0; 
+}
+.mainProspectus li:hover
+{
+	color: #000;
+}
+footer{
+	background-color: #ececec; 
+	margin:0 auto;
+}
+footer a{
+	font-size: 16px;
+	color: #ff8000;
+}
+footer a:hover{
+	color: #000;
+}
+footer ul{
+	padding: 10px 0; 
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	margin-left: 50px;
+}
+h2{
+	font-size: 36px;
+	text-align: center;
+	margin:0 0 70px 0;
+}
