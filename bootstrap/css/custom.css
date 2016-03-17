@@ -1,0 +1,85 @@
+.navHeaderCustom{
+	background-color: #080808;
+	border-radius: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.navbarCustom{
+	margin: 0;
+}
+.navbarCustom li a{
+	padding: 0;
+	margin-left: 30px;
+	color: #9d9d9d;
+}
+.navbar-headerCustom a{
+	padding: 0;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #ffffff;
+}
+.headingCustom{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 18px;
+}
+.bannerCustom{
+	background-color: #777777;
+	text-align: center;
+	padding-top: 263px;
+	padding-bottom: 70px;
+	margin:0 auto 60px;
+}
+.bannerCustom h1{
+	font-size: 18px;
+}
+.bannerCustom p{
+	font-size: 14px;
+	padding-bottom: 25px;
+	width: 550px;
+	text-align: center;
+	margin: 0 auto;
+}
+.navbar{
+	margin-bottom: 0;
+	border: 0;
+}
+.navbar-nav>li {
+	padding: 0;
+}
+.secondulCustom{
+	text-align: center;
+	list-style-type: none;
+	padding-bottom: 110px;
+	 border-bottom: 1px solid #ccc;
+	 margin-bottom: 80px;
+}
+.thirdUlCustom{
+	padding-left: 0;
+	padding-right: 0;
+	list-style-type: none;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #ccc;
+}
+.thirdUlCustom h3{
+	font-size: 18px;
+}
+.fourthUlCustom{
+	margin:0; 
+	padding-top: 43px;
+	padding-bottom: 42px;
+}
+.fourthUlCustom ul{
+	padding: 0;
+	margin-bottom: 0;
+}
+.fourthUlCustom ul li{
+	float: left;
+	margin-left: 30px;
+	color: #00bbff;
+}
+.fourthUlCustom ul li:first-child{
+	margin-left: 0;
+	list-style-type: none;
+	color: #9d9d9d;
+}
