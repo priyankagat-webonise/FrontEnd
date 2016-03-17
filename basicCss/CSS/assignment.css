@@ -14,6 +14,11 @@ header .container{
 header {
 	background-color: #000;
 }
+h2{
+	font-size: 36px;
+	text-align: center;
+	margin:0 0 70px 0;
+}
 .clear{
 	clear: both;
 }
@@ -65,7 +70,6 @@ ul{
 .mainContent{
 	color: #444444;
 	margin-bottom: 70px;
-	text-align: center;
 }
 a{
     text-decoration: none;
@@ -91,15 +95,14 @@ a{
 .mainProspectus li {
 	width: 140px;
 	text-align: center;
-	margin-right: 75px;
+	margin-left: 75px;
 	float: left;
 	cursor: pointer;
 }
 .mainProspectus li:first-child {
 	margin-left:0; 
 }
-.mainProspectus li:hover
-{
+.mainProspectus li:hover{
 	color: #000;
 }
 footer{
@@ -115,14 +118,9 @@ footer a:hover{
 }
 footer ul{
 	padding: 10px 0; 
-	text-align: center;
 }
 footer ul li{
 	display: inline-block;
 	margin-left: 50px;
 }
-h2{
-	font-size: 36px;
-	text-align: center;
-	margin:0 0 70px 0;
-}
+
