@@ -8,23 +8,23 @@
 	<link href="css/custom.css" rel="stylesheet">
 </head>
 	<body>
-		<nav class="navbar navbar-default navBarCustom clearfix">
+		<nav class="navbar-default navBarCustom clearfix">
 			<div class="container">
-				<div class="navbar-header">
-					<div class="logoImage"></div>
-				</div>
-			  	<ul class="nav navbar-nav navbar-right">
-				    <li><a href="#">Flights</a></li>
-				    <li><a href="#">Hotels</a></li>
-				    <li><a href="#">Vacations</a></li>
-				    <li><a href="#">Deals</a></li>
-				    <li><a href="#">Groups</a></li>
-					<li><a href="#">Destinations</a></li>
-					<li><a href="#">More</a></li>
+				<h1 class="logo pull-left">
+					<a href="javascript:void(0)"><img src="images/logo.png" alt="logo"></a>
+				</h1>
+			  	<ul class="nav navbar-nav menu pull-right">
+				    <li><a href="javascript:void(0)">Flights</a></li>
+				    <li><a href="javascript:void(0)">Hotels</a></li>
+				    <li><a href="javascript:void(0)">Vacations</a></li>
+				    <li><a href="javascript:void(0)">Deals</a></li>
+				    <li><a href="javascript:void(0)">Groups</a></li>
+					<li><a href="javascript:void(0)">Destinations</a></li>
+					<li><a href="javascript:void(0)">More</a></li>
 				</ul>
 			</div>
 		</nav>
-		<div class="bannerBackgroundImage">
+		<div class="banner">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7">
@@ -48,7 +48,7 @@
 								    	<input type="text" class="form-control" id="accommodation" placeholder="1 Room ,2 Guest">
 									</div>
 								</div>
-								<button type="submit" class="btn btn-danger center-block formButton">Find</button>
+								<button type="submit" class="btn center-block formButton">FIND</button>
 							</form>
 						</div>
 					</div>
@@ -59,22 +59,22 @@
 			</div>
 		</div>
 			
-		<div class="reasonsBanner text-center">
+		<div class="reasons text-center">
 			<div class="container">
-				<h1>Reasons to book with us</h1>
-				<ul class="row reasonsBannerInner">
+				<h3>Reasons to book with us</h3>
+				<ul class="row reasonsInner">
 					<li class="col-md-4">
-						<div class="reasonsFirstImage center-block"></div>
+						<i class="firstReason center-block"></i>
 						<p class="center-block">Suspendisse sit amet nunc a leo</p>
 						<a href="#">Lipsum Lorem></a>
 					</li>
 					<li class="col-md-4">
-						<div class="reasonsSecondImage center-block"></div>
+						<i class="secondReason center-block"></i>
 						<p class="center-block">Proin sollicitudin nisl tortor, quis venenatis arcu</p>
 						<a href="#">Lipsum Lorem></a>
 					</li>
 					<li class="col-md-4">
-						<div class="reasonsThirdImage center-block"></div>
+						<i class="thirdReason center-block"></i>
 						<p class="center-block">Suspendisse sit amet nunc a leo</p>
 						<a href="#">Lipsum Lorem></a>
 					</li>
@@ -87,53 +87,51 @@
 				<div class="row">
 					<div class="dealsMain clearfix">
 						<div class="col-md-8 dealsBox">
-								<img src="images/bigImage.png" alt="deals">
-								<div class="dealsAvailable">
-									<p class="dealsFirstElement">Last Minute Deals</p>
-									<p class="dealsSecondElement">Bahamas</p>
-									<p class="dealsThirdElement">vacation from</p>
-									<p class="dealsFourthElement">C$ 198</p>
-								</div>
+							<img src="images/bigImage.png" alt="deals">
+							<div class="dealsAvailable">
+								<span class="dealType center-block">Last Minute Deals</span>
+								<span class="dealName center-block">Bahamas</span>
+								<span class="dealRange center-block">vacation from</span>
+								<span class="dealCurrency">C$</span><span class="dealPrice">198</span>
+							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="customChart">
+							<div class="chart">
 								<h4>Chart</h4>
 								<ul>
 									<li class="clearfix">
-										<span class="customChartFirstColumn pull-left">Nassau Four Seasons</span>
-										<span class="customChartSecondColumn pull-right">480</span>
-										<span class="customChartThirdColumn pull-right">c$</span>
+										<span class="chartMenu pull-left">Nassau Four Seasons</span>
+										<span class="chartMenuPrice pull-right">480</span>
+										<span class="chartMenuCurrency pull-right">c$</span>
 									</li>
-									<li class="chartBorder"></li>
 									<li class="clearfix">
-										<span class="customChartFirstColumn pull-left">Jamaica Beach Club</span>
-										<span class="customChartSecondColumn pull-right">350</span>
-										<span class="customChartThirdColumn  pull-right">c$</span>
+										<span class="chartMenu pull-left">Jamaica Beach Club</span>
+										<span class="chartMenuPrice pull-right">350</span>
+										<span class="chartMenuCurrency pull-right">c$</span>
 									</li>
-									<li class="chartBorder"></li>
 									<li class="clearfix">
-										<span class="customChartFirstColumn pull-left">Jamaica Beach Club</span>
-										<span class="customChartSecondColumn  pull-right">350</span>
-										<span class="customChartThirdColumn  pull-right">c$</span>
+										<span class="chartMenu pull-left">Jamaica Beach Club</span>
+										<span class="chartMenuPrice  pull-right">350</span>
+										<span class="chartMenuCurrency  pull-right">c$</span>
 									</li>
 								</ul>
 							</div>
 		
 						</div>
 					</div>
-					<div class="dealsSecondBanner">
+					<div class="dealsMenu">
 						<ul class="clearfix">
 							<li class="col-md-4 dealsImages">
 								<img src="images/image1.png" alt="vacations">
-								<p class="dealsImagesProperty">Vacations</p>
+								<a href="javascript:void(0)" class="dealsHeading">Vacations</a>
 							</li>
 							<li class="col-md-4 dealsImages">
 								<img src="images/image2.png" alt="flights">
-								<p class="dealsImagesProperty">Flights</p>
+								<a  href="javascript:void(0)" class="dealsHeading">Flights</a>
 							</li>
 							<li class="col-md-4 dealsImages">
 								<img src="images/image3.png" alt="flights">
-								<p class="dealsImagesProperty">Flights</p>
+								<a  href="javascript:void(0)" class="dealsHeading">Flights</a>
 							</li>
 						</ul>
 					</div>
@@ -141,17 +139,15 @@
 			</div>		
 		</div>
 		<div class="offerBanner">
-			<div class="myOffer text-center">
-				<span class="offerText">
-					Join today and get <span class="offerAmount">$25</span> off on your purchase 
-				</span> 
-				<button class="btn customButton">Join Now</button>	
-			</div>
+			<span class="offerText">
+				Join today and get <span class="offerAmount">$25</span> off on your purchase 
+			</span> 
+			<a href="javascript:void(0)">Join Now</a>	
 		</div>
 		<div class="footer">
-		<div class="container">
-			<div class="row">
-					<ul class="pull-left firstmenu">
+			<div class="container">
+				<div class="clearfix">
+					<ul class="pull-left footerList">
 						<li><a href="javascript:void(0)">Destinations</a></li>
 						<li><a href="javascript:void(0)">Groups</a></li>
 						<li><a href="javascript:void(0)">Deals</a></li>
@@ -159,19 +155,17 @@
 						<li><a href="javascript:void(0)">Hotels</a></li>
 						<li><a href="javascript:void(0)">Flights</a></li>
 					</ul>
-					<ul class="pull-left secondmenu">
+					<ul class="pull-left footerList">
 						<li><a href="javascript:void(0)">Contact Us</a></li>
 						<li><a href="javascript:void(0)">FAQs</a></li>
 						<li><a href="javascript:void(0)">Terms and Conditions</a></li>
 						<li><a href="javascript:void(0)">Pravacy Policy</a></li>
 						<li><a href="javascript:void(0)">About Us</a></li>
 					</ul>
-					<div class="clearfix"></div>	
-					<p>Copyright &#169; 2004-2015 lastminuteclub.com All rigths reserved</p>
-				</div>
+				</div>	
+				<p>Copyright &#169; 2004-2015 lastminuteclub.com All rigths reserved</p>
 			</div>
 		</div>
-		<script src="js/jquery.min.js"></script>
-	    <script src="js/bootstrap.min.js"></script>
+
 	</body>
 </html>
