@@ -1,40 +1,36 @@
 
-.logoImage{
-	background: url(../images/logo.png);
-	background-repeat: no-repeat;
-	width: 332px;
-	height: 68px;
-}
 .navBarCustom{
-	margin: 0;
-	padding: 0;
-	padding: 23px 0 23px 0;
 	border-radius: 0;
 }
 .navBarCustom li a{
 	margin: 0;
 	padding: 0;
+	font-size: 18px;
+	color: #1c3a50;
+}
+.logo{
+	margin : 23px 0;
+}
+.navBarCustom a{
+	display: inline-block;
+}
+.navBarCustom .menu li a:hover{
+	color: #02b8dc;
 }
 .navBarCustom ul{
-	padding: 23px;
+	margin: 45px 0;
 }
 .navBarCustom li{
 	padding-left: 28px;
 }
-.navbar-default .navbar-nav>li>a{
-	color: #1c3a50;
-}
-.navbar-default .navbar-nav>li>a:hover{
-	color: #02b8dc;
-}
-.bannerBackgroundImage {
+.banner{
     height: 500px;
     background: url("../images/bannerBg.png");
     background-size: cover;
     padding-top: 97px;
 }
 .formContainer{
-	background-color: #f9f9f9;
+	background-color: #fff;
 	padding: 40px 80px 20px 80px;
 	margin-left: 0;
 }
@@ -48,19 +44,23 @@
 	width:150px;
 }
 .formButton{
+	background-color:#ff4500;
 	font-weight: bold;
+	color: #fff;
 	 border-radius:0;
 	 height: 47px;
 	 width: 140px;
 }
-h2{
-	margin-top: 80px;
+.banner h2{
+	margin: 80px 0 0;
 	font-size: 32px;
-	color: #1f435e
+	color: #1f435e;
 }
-h1{
+.reasons h3{
 	margin: 0;
 	padding: 0;
+	margin: 10px 0;
+	font-size: 36px;
 	text-align: center;
 	margin-bottom: 30px;
 }
@@ -68,48 +68,43 @@ h1{
 	text-align: center;
 	margin: 0;
 }
-
-.reasonsBanner{
+.reasons{
 	background-color: #c7e7f9;
 }
-.reasonsBanner p{
+.reasons ul{
+	margin-bottom: 50px;
+}
+.reasons p{
+	padding: 0;
 	font-size: 18px;
 	color: #1c3a50;
-	padding-bottom: 15px;
+	margin-bottom: 15px;
 }
-.reasonsBanner a{
+.reasons a{
 	color: #1c3a50;
 }
-.reasonsBannerInner li{
+.reasonsInner li{
 	list-style-type: none;
-	padding: 0 75px;
 }
-.reasonsBannerInner{
+.reasonsInner{
 	padding-left: 0;
 	margin-bottom: 0;
-	margin: 0px 0 20px 0;
 }
-.reasonsBannerInner li:first-child{
-	padding: 0 75px 0 0;
-}
-.reasonsBannerInner li:last-child{
-	padding: 0 0 0 75px;
-}
-.reasonsFirstImage{
+.firstReason{
 	height: 53px;
 	width: 88px;
 	margin-bottom: 27px;
 	background: url(../images/reason1.png);
 	background-repeat: no-repeat;
 }
-.reasonsSecondImage{
+.secondReason{
 	height: 67px;
 	width: 43px;
 	margin-bottom: 13px;
 	background: url(../images/reason2.png);
 	background-repeat: no-repeat;
 }
-.reasonsThirdImage{
+.thirdReason{
 	height: 66px;
 	width: 80px;
 	margin-bottom: 14px;
@@ -134,11 +129,25 @@ h1{
 .dealsMain{
 	margin-bottom: 30px;
 }
-.dealsSecondBanner ul{
+.dealsMenu ul{
 	padding-left: 0;
 }
-.dealsSecondBanner{
+.dealsMenu{
 	margin-bottom: 40px;
+}
+.dealsMenu a{
+	width: 160px;
+	text-align: center;
+	text-decoration: none;
+	color: #1c3a50;
+	padding: 10px 30px;
+	font-size: 22px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -80px;
+	background-color: rgba(255,255,255,0.7);
 }
 .dealsAvailable{
 	position: absolute;
@@ -146,93 +155,92 @@ h1{
 	width: 250px;
 	top: 20px;
 	left: 35px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
 }
-.dealsFirstElement{
+.dealType{
 	font-size: 22px;
-	padding-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
-.dealsSecondElement{
-	font-size: 20px;
-	padding-bottom: 15px;
+.dealName{
+	font-size: 22px;
+	margin-bottom: 15px;
 }
-.dealsThirdElement{
+.dealRange{
 	font-size: 16px;
 }
-.dealsFourthElement{
+.dealCurrency{
+	font-size: 22px;
+}
+.dealPrice{
 	font-size: 30px;
+	font-weight: bold;
 }
 li{
 	list-style-type: none;
 }
-.chartBorder{
-	padding: 0;
-	 border-bottom: 1px solid;
-	 border-color: #d0dce5;
+.chart li{
+	border-top: 1px solid;
+	line-height: 70px;
 }
-.customChart h4{
+.chart li:first-child{
+	border-top: none;
+}
+.chart h4{
 	margin: 0;
 	font-size: 22px;
 	text-align: center;
 }
-.customChartFirstColumn{
-	line-height: 30px;
+.chartMenu{
 	font-size: 18px;
+	width: 180px;
 }
-.customChartSecondColumn{
+.chartMenuPrice{
 	color: #ef5a29;
 	font-size: 30px;
-	line-height: 30px;
+	width: 55px;
 }
-.customChartThirdColumn{
+.chartMenuCurrency{
 	color: #ef5a29;
 	font-size: 22px;
-	line-height: 30px;
+	width: 30px;
 }
-.customChart li{
-	margin-bottom: 25px;
-}
-.customChart li:first-child{
-	margin-top: 15px;
-}
-.customChart li:last-child{
-	margin-bottom: 0;
-}
-.customChart{
+.chart{
 	background-color: #f9f9f9;
 	padding: 13px 20px;
 	margin-left: 0;
-	height: 260px;
 }
-.customChart ul{
+.chart ul{
 	margin: 0;
 	padding: 0;
 }
 .deals{
-	background-color: #f5f5dc;
+	background-color: #fcfcfc;
 }
 .dealsImages img{
 	height: 260px;
 	width: 100%;
 	position: relative;
 }
-.dealsImagesProperty{
-	padding: 10px 30px;
-	font-size: 22px;
-	position: absolute;
-	top: 110px;
-	left: 130px;
-	background-color: rgba(255,255,255,0.5);
-}
 .offerBanner{
 	background-color: #02b8dc;
 	font-size: 24px;
 	color:#FFF;
-
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
-.offerBanner .myOffer{
-	width:700px;
-	margin:0 auto;
+.offerBanner a{
+	color: #fff;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 56px;
+	padding-right: 56px;
+	font-size: 18px;
+	text-decoration: none;
+	border: 2px solid;
+	
 }
 .customButton{
 	background-color: #02b8dc;
@@ -244,7 +252,7 @@ li{
 	border-radius: 0;
 	font-size: 18px;
 }
-.myOffer .customButton{
+.customButton{
 	margin:22px auto;
 }
 .offerText{
@@ -259,17 +267,16 @@ li{
 	background-color: #1c3a50;
 	color: #fff;
 }
-.firstmenu{
-	padding-top: 50px;
-	padding-bottom: 25px;
+.footerList{
 	font-size: 16px;
 	color: #fff;
 }
-.secondmenu{
-	padding-top: 50px;
-	margin-left: 100px;
-	font-size: 16px;
-	color: #fff;
+.footer ul:first-child{
+	margin-right: 100px;
+	margin-bottom: 25px;
+}
+.footer li{
+	padding-bottom: 10px;
 }
 .footer a{
 	text-decoration: none;
@@ -281,4 +288,5 @@ li{
 }
 .footer ul{
 	padding: 0;
+	margin: 0;
 }
